@@ -21,9 +21,12 @@ public class arrayListClass {
         System.out.println(a);
         System.out.println(a.contains("Java")); //.contains method check for match and returns response - false
         System.out.println(a.contains("Learn"));//.contains method check for match and returns response - true
-
-
-
+        //Get size of arraylist
+        System.out.println(a.size());
+        //Confirm if arraylist is empty
+        System.out.println(a.isEmpty());
+        //Get index of element "Automation"
+        System.out.println(a.indexOf("Automation"));
 
 
     }
