@@ -6,7 +6,7 @@ public class CreateMethodClasses {
         CreateMethodClasses d = new CreateMethodClasses();
         d.getData();
         int b = d.getData();
-        System.out.println(b);
+        System.out.println("Test "+b);
 
         //my second method
         CreateMethodClasses2 a = new CreateMethodClasses2();
