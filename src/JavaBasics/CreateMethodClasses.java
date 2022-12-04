@@ -21,7 +21,7 @@ public class CreateMethodClasses {
     //void = the method does not return a value
     public int getData(){ //to return a value - specify the data type e.g int in place of void
 
-        System.out.println("My new method");
+        System.out.println("My new first method");
         return 45; //to return declare a type
     }
 
