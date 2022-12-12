@@ -3,9 +3,12 @@ package oopsInJava;
 public class staticVar {
 
     //instance variables and class variables
-    String suburb;
+    String suburb; //this is instance variable
     String city;
-    static String province = "Johannesburg"; //change property to static property to be shared by object in main class
+    static String province = "Johannesburg"; //this is call class variable //change property to static property to be
+                                             // shared by object in main class
+                                             // it now belongs to class and not object
+    static int i = 0; //all objects share same variable by making it static
 
     //local variables
     staticVar(String suburb, String city)
@@ -14,6 +17,8 @@ public class staticVar {
         this.suburb = suburb;//use operator this to identify parameters to this class
         this.city = city;
         //this.province = province; // remove this variable to match number of parameters in constructor
+        i++;
+        System.out.println(i);
     }
 
     //create method of this class 'staticVar'
