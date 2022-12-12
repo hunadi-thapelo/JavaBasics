@@ -5,10 +5,15 @@ public class staticVar {
     //instance variables and class variables
     String suburb; //this is instance variable
     String city;
-    static String province = "Johannesburg"; //this is call class variable //change property to static property to be
+    static String province; //this is call class variable //change property to static property to be
                                              // shared by object in main class
                                              // it now belongs to class and not object
-    static int i = 0; //all objects share same variable by making it static
+    static int i; //all objects share same variable by making it static
+
+    static{ //static block // to make code more readable, easily identify static variables of class
+        province = "Johannesburg";
+        i = 0;
+    }
 
     //local variables
     staticVar(String suburb, String city)
