@@ -27,6 +27,12 @@ public class staticVar {
         System.out.println(suburb + " " + province); //print province variable
     }
 
+    //static method
+    public static void getProvince() {
+        //static method will only accept static variables
+        System.out.println(province);
+    }
+
     public static void main(String[] args){
         //instance variables or variables in the class are activated by values by what we send from object
         //staticVar obj = new staticVar("Ferndale", "Johannesburg North", "Gauteng");
@@ -37,6 +43,9 @@ public class staticVar {
 
         obj.getSuburb(); //print method value of this object
         obj1.getSuburb();
+        staticVar.getProvince(); // all static methods can be access with class name
+        staticVar.i = 10; //can assign values at runtime to static variables
+        obj.suburb = "North Riding"; //assigning values to non static variable
 
     }
 
