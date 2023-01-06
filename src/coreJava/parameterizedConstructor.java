@@ -36,10 +36,6 @@ public class parameterizedConstructor {
         demoThis.getData(); //calls class method
         demoThisTwo.getData();
         demoThisString.getData();
-
     }
-
-
-
 
 }
