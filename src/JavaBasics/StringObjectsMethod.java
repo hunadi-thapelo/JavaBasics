@@ -13,12 +13,12 @@ public class StringObjectsMethod {
         //String s4 = new String("String using new keyword");
 
         //split method
-        //String[] splittedArrayValues1 = s.split(" ");
+        //String[] splittedArrayValues1 = s.split(" "); // to catch strings - I store them in an array
         //System.out.println(splittedArrayValues1[0]);
 
 
 
-        String[] splittedArrayValues2 = s.split("string");
+        //String[] splittedArrayValues2 = s.split("string");
         //System.out.println(splittedArrayValues2[0]);
         //System.out.println(splittedArrayValues2[1].trim());
 
