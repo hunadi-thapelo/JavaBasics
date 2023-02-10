@@ -1,6 +1,6 @@
 package coreJava;
 
-public class MetroTraffic implements CentralTraffic {
+public class MetroTraffic implements CentralTraffic,NationalTraffic {
 
     public static void main(String[] args)
     {
@@ -9,6 +9,9 @@ public class MetroTraffic implements CentralTraffic {
         a.greenGo();
         a.yellowWait();
         a.redStop();
+
+        NationalTraffic nt = new MetroTraffic(); //object of class to implement second interface
+        nt.tollGateSign();
     }
 
     @Override
@@ -26,4 +29,10 @@ public class MetroTraffic implements CentralTraffic {
     public void redStop() {
         System.out.println("Red for Stop implementation");
     }
+
+    @Override
+    public void tollGateSign() {
+        System.out.println("Toll gate sign implementation");
+    }
+
 }
