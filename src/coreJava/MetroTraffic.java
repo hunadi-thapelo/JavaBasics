@@ -12,6 +12,15 @@ public class MetroTraffic implements CentralTraffic,NationalTraffic {
 
         NationalTraffic nt = new MetroTraffic(); //object of class to implement second interface
         nt.tollGateSign();
+
+        MetroTraffic mt = new MetroTraffic(); //object of class to implement methods that belong to the class and not interface
+        mt.crossingLine();
+
+    }
+
+    public void crossingLine()
+    {
+        System.out.println("Cross line implementation");
     }
 
     @Override
