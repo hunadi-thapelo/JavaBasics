@@ -6,24 +6,24 @@ public class MetroTraffic implements CentralTraffic {
     {
         //Create object of the class that will implement interface method/s
         CentralTraffic a = new MetroTraffic();
-        a.GreenGo();
-        a.YellowWait();
-        a.RedStop();
+        a.greenGo();
+        a.yellowWait();
+        a.redStop();
     }
 
     @Override
-    public void GreenGo() {
+    public void greenGo() {
         System.out.println("Green for Go implementation");
     }
 
     @Override
-    public void YellowWait() {
+    public void yellowWait() {
         System.out.println("Yellow for Wait implementation");
 
     }
 
     @Override
-    public void RedStop() {
+    public void redStop() {
         System.out.println("Red for Stop implementation");
     }
 }
