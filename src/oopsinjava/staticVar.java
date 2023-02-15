@@ -1,4 +1,4 @@
-package oopsInJava;
+package oopsinjava;
 
 public class staticVar {
 
