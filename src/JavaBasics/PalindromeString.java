@@ -15,7 +15,7 @@ public class PalindromeString {
         //3. For Loop: to iterate original string and store char in reverse string variable
         for(int i = 0; i < str.length(); i++){
             ch = str.charAt(i);
-            reversedStr = ch + reversedStr;
+            reversedStr += ch;
         }
 
         //4. If statement -- return True is both variables are the same
